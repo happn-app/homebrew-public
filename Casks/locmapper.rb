@@ -1,8 +1,8 @@
 cask 'locmapper' do
   version '1.2.4'
-  sha256 '228fa9a97d385899ddd6e7142d668f5f3192fd4487f410e2d22e44815409aafb'
+  sha256 'db3d61ea5db1646ceccee7d373abff09a39610bf07c9498eea287e011c36bd8a'
 
-  url "https://github.com/happn-tech/LocMapper/releases/download/LocMapper-30/LocMapperApp.zip"
+  url "https://github.com/happn-tech/LocMapper/releases/download/LocMapper-v#{version}/LocMapperApp.zip"
   name 'LocMapper'
   homepage 'https://github.com/happn-tech/LocMapper'
 
