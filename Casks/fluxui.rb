@@ -1,6 +1,6 @@
 cask 'fluxui' do
-  version '0.1.1'
-  sha256 'e44b435654a8884ac3b575c153ebbdc7eca79342ac78e2cf2ab002869081ba9f'
+  version '0.2.0'
+  sha256 '37e5a1b33597dc08134797b70be9fe9683f74812f69454672a2b6187010fac8d'
 
   url "https://github.com/happn-tech/FluxUI/releases/download/#{version}/FluxUI.zip"
   name 'FluxUI'
