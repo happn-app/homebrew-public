@@ -1,10 +1,10 @@
 cask 'base64' do
-  version '1.0'
-  sha256 '217003f2f92a638643caace9dbe527081d6c98341a6f9ebeac447926c7f5c1a8'
+  version '1.0.2'
+  sha256 '7280148490262ce7fea4fd25e7a31614ecde8fdd7bb9ec252fb1513a1416d116'
 
   url "https://github.com/happn-tech/base64-app/releases/download/Base64-v#{version}/base64.zip"
   name 'Base64'
-  homepage 'https://github.com/happn-app/base64-app'
+  homepage 'https://github.com/happn-tech/base64-app'
 
   app 'base64.app'
 
