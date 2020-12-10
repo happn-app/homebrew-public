@@ -1,4 +1,4 @@
-cask 'locmapper' do
+cask 'locmapper-app' do
   version '1.3'
   sha256 '17d5cec0c30384fd649d9acb41e72c8e4b6d822b99b714b19edc326c1779e2a4'
 
