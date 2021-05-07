@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+# If either FB9099010 or FB9099015 are solved, the comment below will not be
+# true anymore.
+#
 # This formula is currently a cask.
 # I’d love for this formula to work, but it does not! xcodebuild tries to
 # resolve SPM dependencies in a sandbox, but Homebrew already creates a sandbox.
