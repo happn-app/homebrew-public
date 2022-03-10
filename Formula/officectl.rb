@@ -1,9 +1,9 @@
 class Officectl < Formula
   desc "Manage multiple user directories (LDAP, Google Apps, etc.)"
   homepage "https://github.com/happn-app/officectl"
-  url "https://github.com/happn-tech/officectl.git", using: :git, tag: "0.7.9", revision: "3a0f8ddf18dda546b4c011b7849b4295acb57d59"
+  url "https://github.com/happn-app/officectl.git", using: :git, tag: "0.7.9", revision: "3a0f8ddf18dda546b4c011b7849b4295acb57d59"
   revision 1
-  head "https://github.com/happn-tech/officectl.git", using: :git, branch: "develop"
+  head "https://github.com/happn-app/officectl.git", using: :git, branch: "develop"
 
   depends_on xcode: ["12.4", :build]
 

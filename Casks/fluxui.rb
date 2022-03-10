@@ -2,9 +2,9 @@ cask 'fluxui' do
   version '0.2.1'
   sha256 '2f52e509693b155c12bd64577a867f6bfb339790f1bd87433a3377d1dd3256cd'
 
-  url "https://github.com/happn-tech/FluxUI/releases/download/#{version}/FluxUI.zip"
+  url "https://github.com/happn-app/FluxUI/releases/download/#{version}/FluxUI.zip"
   name 'FluxUI'
-  homepage 'https://github.com/happn-tech/FluxUI'
+  homepage 'https://github.com/happn-app/FluxUI'
 
   app 'FluxUI.app'
 
