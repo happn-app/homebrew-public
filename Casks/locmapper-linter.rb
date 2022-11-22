@@ -1,6 +1,6 @@
 cask 'locmapper-linter' do
-  version '1.2.1'
-  sha256 'f7ac0519b78d11144c41612382781cd3e95622527ba6ed6262e494693f7be04d'
+  version '1.2.2'
+  sha256 '68e69ed9d33b6e1933eb763aaf468f82d89a94f904cfd321ef169b6cfcee65d6'
 
   url "https://github.com/happn-app/LocMapper/releases/download/LocMapper_Linter%2Frelease%2F#{version}/LocMapper-Linter.zip"
   name 'LocMapper Linter'
