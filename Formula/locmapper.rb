@@ -1,7 +1,7 @@
 class Locmapper < Formula
   desc "Utility for working w/ LocMapper (*.lcm) files"
   homepage "https://github.com/happn-app/LocMapper"
-  url "https://github.com/happn-app/LocMapper.git", using: :git, tag: "1.3.5", revision: "8edd01256cec455e7a6b99e4c9344e86c3f561b0"
+  url "https://github.com/happn-app/LocMapper.git", using: :git, tag: "1.3.6", revision: "446e7d67c23f2a2fbdcf35bd058ea2a1dad5cfce"
   head "https://github.com/happn-app/LocMapper.git", using: :git, branch: "develop"
 
   depends_on xcode: ["14.1", :build]
