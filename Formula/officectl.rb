@@ -1,11 +1,10 @@
 class Officectl < Formula
-  desc "Manage multiple user directories (LDAP, Google Apps, etc.)"
+  desc "Manage multiple user directories (LDAP, Microsoft Office 365, Google Apps, etc.)"
   homepage "https://github.com/happn-app/officectl"
-  url "https://github.com/happn-app/officectl.git", using: :git, tag: "0.7.9", revision: "3a0f8ddf18dda546b4c011b7849b4295acb57d59"
-  revision 2
+  url "https://github.com/happn-app/officectl.git", using: :git, tag: "0.10.0", revision: "5131eb49f06a4b8643617c5bcf3160be49c4ec37"
   head "https://github.com/happn-app/officectl.git", using: :git, branch: "develop"
 
-  depends_on xcode: ["12.4", :build]
+  depends_on xcode: ["15.0", :build]
 
   def install
     # openldap does not support pkg-config, so we have to explicitly add the
@@ -14,7 +13,7 @@ class Officectl < Formula
 
     # officectl_odproxy does not support completion script generation (yet),
     # so we do not add it in this array and install it directly.
-    bin.install "./.build/release/officectl_odproxy"
+    bin.install "./.build/release/officectl-odproxy"
     bins = ["./.build/release/officectl"]
     bins.each do |b|
       # Generate and install bash completion.
